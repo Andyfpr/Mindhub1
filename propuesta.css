@@ -1,0 +1,206 @@
+* {
+    font-family: rubik;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --azuloscuro1: #193441;
+    --azulmedio1: #3E606F;
+    --azulclaro: #91AA9D;
+    --gris1: #D1DBBD;
+    --rojologo: #C64832;
+    --cafelogo: #211915;
+    --amarillologo: #F8E12E;
+}
+
+header {
+    min-height: 8vh;
+    padding: 0;
+    background-color: var(--azulmedio1);
+    box-shadow: 10px 5px 10px rgba(85, 64, 64, 0.87);
+}
+
+header h1 {
+    padding: 3rem;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.9rem;
+    display: block;
+    background-color: var(--azulclaro);
+    background-image: url(./assets/LogoMightyducks-01.png);
+    background-repeat: no-repeat;
+    ;
+    background-size: 100px;
+    background-position: 3% 50%;
+    display: block;
+    text-shadow: 1px 1px 2px var(--rojologo);
+}
+
+header h2 {
+    text-align: left;
+    text-indent: 50px;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #5FA199;
+    text-shadow: 1px 1px 2px var(--cafelogo)
+}
+
+
+
+header img {
+    height: 100vh;
+    width: 100vw;
+    vertical-align: top;
+    background-size: cover;
+    display: inline-block
+}
+
+
+nav {
+    min-height: 10vh;
+    vertical-align: center;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 20%;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+nav>a {
+    background-color: transparent;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+    border-radius: 1rem;
+    color: var(--amarillologo);
+    text-shadow: 1px 1px 1px var(--rojologo);
+    width: fit-content;
+    border: black;
+    outline: solid var(--azuloscuro1);
+    text-decoration: none;
+    vertical-align: left;
+    padding: 0.5rem;
+    position: absolut;
+    display: inline-block;
+    padding-inline: 5% 10%;
+}
+
+nav>a:hover {
+    color: var(--cafelogo);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #5f9fa1ab;
+    border-radius: 10%;
+    text-shadow: 1px 1px 1px var(--azulclaro);
+    position: relative;
+    transition: margin-right 4s ease-in-out;
+    font-size: 3rem
+}
+
+
+a[href="#"] {
+    background-color: var(--azuloscuro1);
+    color: aliceblue;
+    position: relative;
+}
+
+main {
+    min-height: 70vh;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+
+
+
+aside {
+    width: 30vw;
+
+    height: 1000px;
+    background-color: var(--azuloscuro1);
+    padding-left: 0.1rem;
+    border-radius: 20px;
+}
+
+aside img {
+    margin-left: 2rem
+}
+
+.foto {
+    width: 80%;
+    height: 40vh;
+    transition: scale 1s ease-out 0.5s;
+    padding-left: 5 rem;
+    border-radius: 0px 50% 100% 150%;
+    background-size: cover;
+}
+
+.logo {
+    width: 80%;
+    height: 40vh;
+    transition: scale 1s ease-out 0.5s;
+    padding-left: 5 rem;
+    border-radius: none;
+    background-size: cover
+}
+
+aside>img:hover {
+    transform: scale(1.2);
+    ;
+    margin-right: 10%;
+    box-shadow: 5px 10px 5px var(--cafelogo);
+}
+
+.logo:hover {
+    transform: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+
+
+
+main>section {
+    width: 65vw;
+    padding: 1 rem;
+    padding-top: 1.5rem;
+    vertical-align: top;
+    font-size: 1.2rem;
+}
+
+main article {
+    padding-left: 3rem;
+    padding-bottom: 5 rem;
+}
+
+main section {
+    padding-top: 5rem;
+    padding: 1rem;
+}
+
+main {
+    background-color: var(--cafelogo)
+}
+
+main>aside,
+main,
+section {
+    display: inline-block;
+}
+
+main h3 {
+    color: var(--amarillologo);
+    text-shadow: 1px 1px 2px var(--cafelogo)
+}
+
+p {
+    text-align: justify;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgba(41, 39, 39, 0.13);
+}
+
+p.sangria {
+    text-indent: 20px;
+    text-align: justify;
+}
+
