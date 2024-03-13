@@ -1,0 +1,79 @@
+:root {
+    --amarillologo: #F8E12E;
+    --rojologo: #C64832;
+    --cafelogo: #211915;
+}
+
+dt {
+    color: var(--amarillologo);
+    text-shadow: 1px 1px 2px var(--rojologo);
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+article dl,
+article ol,
+article ul {
+    padding: 1rem;
+    color: white;
+    text-align: justify;
+    text-indent: 2rem;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+main section[href="strong"] {
+    color: var(--amarillologo);
+    text-shadow: 1px 1px 2px var(--rojologo);
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+h5,
+h4 {
+    color: var(--amarillologo);
+    text-shadow: 1px 1px 2px var(--rojologo);
+    justify-content: flex-start;
+    align-items: center;
+    text-align: initial;
+    font-size: 1rem;
+    padding: 0rem;
+}
+
+#alfab {
+    list-style-type: lower-latin;
+}
+
+ol li,
+ul li {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li h5 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: fit-content;
+}
+
+ul li::marker {
+    color: var(--rojologo)
+}
+
+ol li::marker {
+    color: var(--amarillologo)
+}
+
+#li1 {
+    list-style: none;
+}
