@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="../assets/LogoMightyducks-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="../diseño.css">
+</head>
+
+<body>
+    <header>
+        <section id="tophead">
+            <h1>Mighty Ducks Hockey League</h1>
+            <img src="../assets/LogoMightyducks-01.png" title="Logo" alt="Logotipo de la compañia" class="logo">
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../vistashtml/about.html">About MDHL</a>
+                <a href="../vistashtml/contact.html">Contact</a>
+                <a href="../vistashtml/gameinfo.html">Game's Schedule</a>
+                <a href="../vistashtml/rules.html">Rules & Policies</a>
+                <a href="#">Registration Form</a>
+            </nav>
+        </section>
+    </header>
+
+    <div>
+        <h2>Registration Form</h2>
+    </div>
+    <main>
+        <aside>
+            <img src="../assets/LogoMightyducks-01.png" title="Logo" alt="Logotipo de la compañia" class="logo">
+            <img src="../assets/hockey1.jpg" title="Imagen 1"
+                alt="Fotografia de un niño sonriente en indumentaria de hockey, sosteniendo su casco" class="foto">
+            <img src="../assets/design1_image1.jpg" title="imagen 4"
+                alt="Fotografia dedos jugadores infantiles de equipos opuestos enfrentandose frente a un arbitro"
+                class="foto">
+        </aside>
+        <section id="principal">
+            <h2 class="empty">Form</h2>
+            <article>
+                <h3>Registration Form</h3>
+                <form action="../show_data.html" method="get">
+                    <link rel="stylesheet" href="../form.css">
+                    <fieldset id="fmain">
+                        <h2>Registration Form</h2>
+                        <fieldset>
+                            <label for="name">Player's First Name:</label>
+                            <input type="text" id="name" name="First_name">
+                            <label for="lastname">Last Name:</label>
+                            <input id="lastname" type="text" name="Last_name"><br>
+                            <label for="address">Street Address:</label>
+                            <input id="address" type="text" name="Address">
+                            <label for="city">City: </label>
+                            <input id="city" type="text" name="City">
+                            <label for="Zip">Zip Code:</label>
+                            <input id="Zip" type="text" name="Zip_code">
+                            <label for="birthdt">Birth date (dd/mm/yyyy):</label>
+                            <input id="birthdt" type="date" name="Birthdate">
+                            <label>Gender: </label>
+                            <label for="genderF">Female</label>
+                            <input id="genderF" type="radio" name="Gender" value="F">
+                            <label for="genderM">Male</label>
+                            <input id="genderM" type="radio" name="Gender" value="M">
+                            <label for="genderO">Other</label>
+                            <input id="genderO" type="radio" name="Gender" value="O">
+                            <br>
+                            <label>Grade:</label>
+                            <label for="presch">Pre-School</label>
+                            <input id="presch" type="radio" name="Grade" value="Pre-School">
+                            <label for="g1">1st</label>
+                            <input id="g1" type="radio" name="Grade" value="1st">
+                            <label for="g2">2nd</label>
+                            <input id="g2" type="radio" name="Grade" value="2nd">
+                            <label for="g3">3rd</label>
+                            <input id="g3" type="radio" name="Grade" value="3rd">
+                            <label for="g4">4th</label>
+                            <input id="g4" type="radio" name="Grade" value="4th">
+                            <label for="g5">5th</label>
+                            <input id="g5" type="radio" name="Grade" value="5th">
+                        </fieldset>
+                        <fieldset>
+                            <h2>Which elementary school do you live near?</h2>
+                            <h3>Closest School:</h3>
+                            <label for="aj">AJ Katzenmaier</label>
+                            <input type="radio" name="Closest" id="aj" value="ajkatzen">
+                            <label for="gb">Greenbay</label>
+                            <input type="radio" name="Closest" id="gb" value="greenbay">
+                            <label for="hy">Howard A Yeager</label>
+                            <input type="radio" name="Closest" id="hy" value="howardy">
+                            <label for="mp">Marjorie P Hart</label>
+                            <input type="radio" name="Closest" id="mp" value="marjorieh">
+                            <label for="ne">North Elementary</label>
+                            <input type="radio" name="Closest" id="ne" value="nort_elemn">
+                            <label for="se">South Elementary</label>
+                            <input type="radio" name="Closest" id="se" value="south_elemn">
+                        </fieldset>
+                        <fieldset>
+                            <h2>What position(s) do you normally play? (check all that apply)</h2>
+                            <label for="forward">Forward</label>
+                            <input type="checkbox" name="Position" id="forward" value="forward">
+                            <label for="mid">Midfield</label>
+                            <input type="checkbox" name="Position" id="mid" value="midfield">
+                            <label for="def">Defense</label>
+                            <input type="checkbox" name="Position" id="def" value="defense">
+                            <label for="goal">Goalkeeper</label>
+                            <input type="checkbox" name="Position" id="goal" value="goalkeeper">
+                        </fieldset>
+                        <fieldset>
+                            <h2>Uniform Size:</h2>
+                            <label for="ys">Youth Small</label>
+                            <input id="ys" type="radio" name="Uniform" value="youthsmall">
+                            <label for="ym">Youth Medium</label>
+                            <input id="ym" type="radio" name="Uniform" value="youthmedium">
+                            <label for="yl">Youth Large</label>
+                            <input id="yl" type="radio" name="Uniform" value="youthlarge">
+                            <label for="s">Small</label>
+                            <input id="s" type="radio" name="Uniform" value="small">
+                            <label for="m">Medium</label>
+                            <input id="m" type="radio" name="Uniform" value="Medium">
+                            <label for="l">Large</label>
+                            <input id="l" type="radio" name="Uniform" value="Large">
+                            <label for="xl">Extra-Large</label>
+                            <input id="xl" type="radio" name="Uniform" value="Extralarge">
+                        </fieldset>
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide
+                            by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                            physical injury associated with hockey and in consideration for the "League" accepting the
+                            registrant for its hockey programs and activities, I hereby release, discharge, and/or
+                            otherwise indemnify MDHL, their employees and associated personnel and volunteers,including
+                            the facilities used for practices and games, against any claim by or on behalf of the
+                            registrant as a result of the registrant's participation in the programand/orbeing
+                            transported to or from MDHL sponsored activities,which transportation.<br><br>
+                            By signing below, I hereby agree and authorize the above. In addition, by signing below, I
+                            also acknowledge that I have read the cancellation policy and agree to its terms</p>
+                        <label for="sign">Parent/GuardianSignature: </label>
+                        <input id="sign" type="text" name="sign">
+                        <label for="date">Date: </label>
+                        <input type="text" name="Date" id="date" placeholder="(mm/dd/yyyy)">
+                        <input type="submit" value="Agree" id="button">
+                    </fieldset>
+
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2 class="empty">Footer</h2>
+
+            <article class="footcontact">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li> Mighty Ducks Hockey League:<br>
+                        <a class="mailto" href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>
+                    </li>
+                    <li>Phone: (630) 690-8132 </li>
+                    <li>Michael Randall, League Coordinator: <a class="mailto"
+                            href="mailto:michael.randall@chihockey.org">michael.randall@chihockey.org</a>
+                    </li>
+                </ul>
+                <img src="../assets/LogoMightyducks-01.png" title="Logo" alt="Logotipo de la compañia" class="logo">
+            </article>
+
+            <article id="artgallery">
+                <h4>Gallery</h4>
+                <div id="galeria">
+                    <img src="../assets/hockey4.jpg" title="hockey4" alt="Fotografia de partido de hockey infantil">
+                    <img src="../assets/hockey5.jpg" title="hockey5"
+                        alt="Fotografia de entrenador impartiendo clase de hockey">
+                    <img src="../assets/hockey6.jpg" title="hockey6"
+                        alt="Fotografia de entrenador de hockey ayudando un estudiante a mantener el equilibrio">
+                    <img src="../assets/hockey7.jpg" title="hockey7"
+                        alt="Fotografia de jugador de hockey infantil sosteniendo baston de hockey">
+                    <img src="../assets/hockey8.jpg" title="hockey8"
+                        alt="Fotografia de tres juagadoras infantiles de hockey caminan junto al campo de hockey">
+                    <img src="../assets/hockey9.jpg" title="hockey9"
+                        alt="fotografia de arquera infnatil defendiendo su arco">
+                </div>
+            </article>
+        </section>
+
+        <h3>Site Map</h3>
+        <nav id="navfooter"> <a href="../index.html">Home</a>
+            <a href="../vistasHTML/about.html">About MDHL</a>
+            <a href="#">Contact</a>
+            <a href="../vistasHTML/gameinfo.html">Game's Schedule</a>
+            <a href="../vistasHTML/rules.html">Rules & Policies</a>
+            <a href="#">Registration Form</a>
+        </nav>
+        <p>Mighty Ducks Hockey League. &reg; 2024</p>
+    </footer>
+</body>
+
+</html>

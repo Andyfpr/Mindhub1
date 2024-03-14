@@ -1,0 +1,84 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+#fmain {
+    background-color: rgba(240, 248, 255, 0.473);
+}
+
+fieldset {
+    flex-direction: row;
+    display: flex;
+    text-align: left;
+    gap: 0.5rem;
+    width: 80h;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #4b6d72b7;
+    flex-wrap: wrap;
+}
+
+input,
+label {
+    gap: 1rem;
+    padding: 0.25rem;
+    justify-content: justify;
+}
+
+label {
+    color: white;
+}
+
+form h2,
+form h3 {
+    text-align: left;
+    width: 100%;
+}
+
+form h2 {
+    color: var(--rojologo);
+    text-shadow: 1px 1px 0px #211915;
+    text-align: left;
+}
+
+input {
+    color: black;
+    border-radius: 0.5rem
+}
+
+form h3 {
+    font-size: 1rem;
+    color: var(--gris1);
+    text-shadow: 2px 2px 0px #C64832;
+    text-align: left;
+}
+
+#address {
+    width: 550px
+}
+
+#city {
+    width: 300px;
+}
+
+#birthdt {
+    width: 170px
+}
+
+form p {
+    color: var(--gris1);
+    text-align: justify;
+    padding: 1rem;font-style: italic;
+}
+
+form #button {
+    width: 200px;
+    display: flex;
+    margin-left: 35%;
+    padding: 0.5rem;
+    
+}

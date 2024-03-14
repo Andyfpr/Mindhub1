@@ -1,0 +1,43 @@
+:root {
+    --azuloscuro1: #193441;
+    --azulmedio1: #3E606F;
+    --azuloscuro2: #0c2531;
+    --azulclaro: #91AA9D;
+    --gris1: #D1DBBD;
+    --rojologo: #C64832;
+    --cafelogo: #211915;
+    --amarillologo: #F8E12E;
+}
+
+th,
+tr,
+td,
+table,
+tbody {
+    border: 1px solid var(--azulclaro);
+    padding: 1rem;
+}
+
+
+table {
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    vertical-align: middle;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+    color: white;
+    box-shadow: 3px 3px 3px #211915b7;
+}
+
+thead {
+    background-color: #022736;
+    color: var(--amarillologo);
+    text-shadow: 1px 1px 2px var(--rojologo);
+    font-size: 1rem;
+}
+
+tbody {
+    background-color: #2981a7dc;
+}
